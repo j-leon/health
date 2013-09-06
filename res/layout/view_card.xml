@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:orientation="vertical"
+	android:layout_height="match_parent" android:scrollbars="vertical">
+
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:smoothScrollbar="true">
+		<LinearLayout android:id="@+id/linearLayout1" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent">
+			<TextView android:layout_height="wrap_content" android:text="@string/name" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView1" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="Name" android:id="@+id/text_name" android:textColor="#FFFF00" android:paddingLeft="5px" android:layout_width="wrap_content" android:textSize="28px" android:textStyle="bold"></TextView>
+			<View android:id="@+id/view1" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+			
+			<TextView android:layout_height="wrap_content" android:text="@string/gender" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView_gender" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="Gender" android:id="@+id/text_gender" android:textColor="#FFFF00" android:paddingLeft="5px" android:layout_width="wrap_content" android:textSize="28px" android:textStyle="bold"></TextView>
+			<View android:id="@+id/view1" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+			
+			<TextView android:layout_height="wrap_content" android:text="@string/document_id" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView3" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:textColor="#FFFF00" android:paddingLeft="5px" android:layout_width="wrap_content" android:id="@+id/text_docID" android:textSize="28px" android:textStyle="bold" android:text="0415"></TextView>
+			<View android:id="@+id/view2" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+			<FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/frameLayout1" android:background="#CCCCCC">
+				<TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textColor="#000000" android:text="CARD"></TextView>
+			</FrameLayout>
+			<TextView android:layout_marginTop="5px" android:layout_height="wrap_content" android:text="@string/type" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView6" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="A" android:textColor="#FFFF00" android:paddingLeft="5px" android:layout_width="wrap_content" android:id="@+id/text_cardType" android:textSize="28px" android:textStyle="bold"></TextView>
+			<View android:id="@+id/view3" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+			<TextView android:layout_marginTop="5px" android:layout_height="wrap_content" android:text="@string/card_id" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView8" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:textColor="#FFFF00" android:paddingLeft="5px" android:layout_width="wrap_content" android:id="@+id/text_card_id" android:text="NO" android:textStyle="bold" android:textSize="28px"></TextView>
+			<View android:id="@+id/view4" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+			
+			<TextView android:layout_marginTop="5px" android:layout_height="wrap_content" android:text="@string/card_issuer" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView_issuer" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:textColor="#FFFF00" android:paddingLeft="5px" android:layout_width="wrap_content" android:id="@+id/text_card_issuer" android:text="Lab: pepe" android:textStyle="bold" android:textSize="28px"></TextView>
+			<View android:id="@+id/view4" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+			
+			<TextView android:layout_marginTop="5px" android:layout_height="wrap_content" android:text="@string/creation_date" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView_cd" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:textColor="#FFFF00" android:paddingLeft="5px" android:layout_width="wrap_content" android:id="@+id/text_card_cd" android:text="2013/01/01" android:textStyle="bold" android:textSize="28px"></TextView>
+			<View android:id="@+id/view4" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+			
+			
+			<TextView android:layout_marginTop="5px" android:layout_height="wrap_content" android:text="State" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView108" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="Unknow" android:textColor="#CCCCCC" android:paddingLeft="5px" android:layout_width="wrap_content" android:id="@+id/text_card_state" android:textSize="28px" android:textStyle="bold"></TextView>
+			<View android:id="@+id/view5" android:background="#FF909090" android:layout_height="1dip" android:layout_width="fill_parent"></View>
+
+			<Button
+			    android:id="@+id/button1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/update_online" android:onClick="get_card_state">
+</Button>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Health Cards</string>
+    <string name="document_id">Document Number</string>
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="card_id">Card ID</string>
+    <string name="update_online">Update On line</string>
+    <string name="configuration">Configure</string>
+    <string name="gender">Gender</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_male">Male</string>
+    <string name="creation_date">Creation date</string>
+    <string name="card_issuer">Issued by</string>
+</resources>

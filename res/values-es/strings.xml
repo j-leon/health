@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_card">Leer Tarjeta</string>
+    <string name="document_id"># de Documento</string>
+    <string name="name">Nombre</string>
+    <string name="type">Tipo</string>
+    <string name="card_id">ID Tarjeta</string>
+    <string name="update_online">Consultar Estado</string>
+    <string name="configuration">Configuración</string>
+    <string name="gender">Sexo</string>
+    <string name="gender_female">Femenino</string>
+    <string name="gender_male">Masculino</string>
+    <string name="creation_date">Fecha de creación</string>
+    <string name="card_issuer">Expedida por</string>
+</resources>
