@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>Healthcards</name>
@@ -31,3 +32,45 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 </projectDescription>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Healthcards</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.PreCompilerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>QRlib_src</name>
+			<type>2</type>
+			<locationURI>_android_QRlib_49c58c4/src</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
+>>>>>>> d4807bb6fac644a1ee9c7a7f1d61c60814845cd4

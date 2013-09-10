@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+<<<<<<< HEAD
+=======
+	<classpathentry kind="lib" path="libs/core.jar"/>
+	<classpathentry kind="src" path="QRlib_src"/>
+>>>>>>> d4807bb6fac644a1ee9c7a7f1d61c60814845cd4
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="libs/corexl2.jar"/>
 	<classpathentry kind="lib" path="libs/core.jar"/>
+=======
+>>>>>>> d4807bb6fac644a1ee9c7a7f1d61c60814845cd4
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
